@@ -6,7 +6,7 @@ metadata:
 spec:
   containers:
     - image: gcr.io/kuar-demo/kuard-amd64:blue
-      name: kuard
+      name: kuard-limits
       resources:
         requests:
           # This request at least 50% free of a core to be free
