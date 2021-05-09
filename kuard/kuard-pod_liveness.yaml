@@ -13,7 +13,6 @@ spec:
         initialDelaySeconds: 10
         timeoutSeconds: 1
         periodSeconds: 10
-        # Comments
         failureThreshold: 2
       ports:
         - containerPort: 8080
