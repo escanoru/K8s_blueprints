@@ -8,7 +8,7 @@ spec:
       name: kuardo
       resources:
         requests:
-          # This request at least 50% of a core to be free
+          # This request at least 50% free of a core to be free
           cpu: "500m"
           memory: "128Mi"
       ports:
