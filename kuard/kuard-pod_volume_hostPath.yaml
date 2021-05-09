@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: kuard
+  name: kuard-volume-hostPath
 spec:
   volumes:
     - name: "kuard-data"
