@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: kuardo-limits
+  name: kuardo
 spec:
   containers:
     - image: gcr.io/kuar-demo/kuard-amd64:blue
